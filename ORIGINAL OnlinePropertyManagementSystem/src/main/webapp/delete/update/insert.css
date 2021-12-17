@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+/*body background */
+body{
+		text-align:center;
+		background:linear-gradient(to bottom, #003366 0%, #660033 100%);
+		background-repeat: no-repeat; 
+		background-attachment: fixed; 
+		background-size: cover;
+	}
+		
+
+
+/* navigation bar */
+ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background: linear-gradient(to bottom, #66ccff 0%, #9900cc 100%);
+	  position: -webkit-sticky; /* Safari */
+	  position: sticky;
+	  top: 0;
+	}
+
+li { float: right; }
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 60px;
+  text-decoration: none;
+}
+
+li a:hover { background-color:#f2f2f2; }
+
+/* footer line*/
+hr{ border: 1px solid white;}

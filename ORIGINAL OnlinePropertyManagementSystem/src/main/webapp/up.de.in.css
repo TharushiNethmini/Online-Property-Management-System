@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+/* covers delete.jsp , insertnew.jsp , vieaccount.jsp & update.jsp*/
+
+/* about form background */
+form{border-spacing: 5px;}
+		
+.form{ border-radius: 10px;
+		align:center;
+		margin: auto; 
+		padding: 10px;  
+		background-color: #f1f1f1; 
+		background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+		margin-top:50px; 
+		font-size:20px; 
+		color:white;
+		}
+
+label { padding: 12px 12px 12px 0; display: inline-block; }
+
+/* form headline*/
+.headline{ font-size:30px; color:#99ebff; text-decoration:underline; }
+
+
+.col-25 { float: left; width: 25%; margin-top: 6px;}
+		
+/* Clear floats after the columns */	
+.row:after { content: ""; display: table; clear: both;}
+
+
+
+
+/* form space */
+input[type=text],input[type=date],input[type=time],select{background-color: #f1f1f1;
+														  width: 100%;
+														  padding: 12px;
+														  border: 1px solid #ccc;
+														  border-radius: 4px;
+														  resize: vertical;
+														}
+
+
+/* delete button*/	
+input[type=submit] {
+					 background:#cccccc;
+					  color: black;
+					  width: 250px;
+					  padding: 15px 32px;
+					  border: none;
+					  border-radius: 4px;
+					  cursor: pointer;
+					  font-size: 20px;
+					  float: right;
+					  border-radius: 12px;
+					}
+
+input[type=submit]:hover { background:#000080; color: white;}
+
+
+/* cancel button */								
+.button3 {
+			background:#cccccc;
+			  color: black;
+			  width: 250px;
+			  padding: 15px 32px;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+			  font-size: 20px;
+			  float: right;
+			  border-radius: 12px;
+			}
+		
+								
+.button3:hover { background:#000080; color: white;}		
+ 			
+	
